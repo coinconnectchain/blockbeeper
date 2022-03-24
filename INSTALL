@@ -1,0 +1,9 @@
+Building Blockbeeper
+
+See doc/readme-qt.rst for instructions on building Blockbeeper QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Blockbeeper.
+
+See doc/build-*.txt for instructions on building Blockbeeperd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Blockbeeper.
