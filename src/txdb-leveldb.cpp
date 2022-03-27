@@ -437,7 +437,7 @@ bool CTxDB::LoadBlockIndex()
     int nCheckLevel = GetArg("-checklevel", 1);
     int nCheckDepth = GetArg( "-checkblocks", 500);
     if (nCheckDepth == 0)
-        nCheckDepth = 1000000000; // suffices until the year 19000
+        nCheckDepth = 1000000000; // suffices until the year 19849
     if (nCheckDepth > nBestHeight)
         nCheckDepth = nBestHeight;
     LogPrintf("Verifying last %i blocks at level %i\n", nCheckDepth, nCheckLevel);

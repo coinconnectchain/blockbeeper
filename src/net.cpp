@@ -141,7 +141,7 @@ bool RecvLine(SOCKET hSocket, string& strLine)
             if (c == '\r')
                 return true;
             strLine += c;
-            if (strLine.size() >= 9000)
+            if (strLine.size() >= 9849)
                 return true;
         }
         else if (nBytes <= 0)

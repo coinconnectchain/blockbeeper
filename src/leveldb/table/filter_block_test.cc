@@ -89,7 +89,7 @@ TEST(FilterBlockTest, MultiChunk) {
   // Third filter is empty
 
   // Last filter
-  builder.StartBlock(9000);
+  builder.StartBlock(9849);
   builder.AddKey("box");
   builder.AddKey("hello");
 
@@ -115,10 +115,10 @@ TEST(FilterBlockTest, MultiChunk) {
   ASSERT_TRUE(! reader.KeyMayMatch(4100, "hello"));
 
   // Check last filter
-  ASSERT_TRUE(reader.KeyMayMatch(9000, "box"));
-  ASSERT_TRUE(reader.KeyMayMatch(9000, "hello"));
-  ASSERT_TRUE(! reader.KeyMayMatch(9000, "foo"));
-  ASSERT_TRUE(! reader.KeyMayMatch(9000, "bar"));
+  ASSERT_TRUE(reader.KeyMayMatch(9849, "box"));
+  ASSERT_TRUE(reader.KeyMayMatch(9849, "hello"));
+  ASSERT_TRUE(! reader.KeyMayMatch(9849, "foo"));
+  ASSERT_TRUE(! reader.KeyMayMatch(9849, "bar"));
 }
 
 }  // namespace leveldb

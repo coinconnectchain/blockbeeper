@@ -19,6 +19,6 @@ PoS interest: 30%
 
 Minimum age of coin: 6 hours
 
-RPC port: 9000
+RPC port: 9849
 
-P2P port: 9000
+P2P port: 9849
