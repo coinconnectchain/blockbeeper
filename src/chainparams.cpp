@@ -118,8 +118,8 @@ public:
         assert(hashGenesisBlock == uint256("0x000007724f3fde648d21107049d4914114398815091961ef59065a54aae6afce"));
         assert(genesis.hashMerkleRoot == uint256("0x64f4537fb23e928e9d3949f721c71622dcde895ff0ee6870413232f94b253f83"));
 
-        vSeeds.push_back(CDNSSeedData("blockbeeper.org", "blockbeeper.org"));
-        vSeeds.push_back(CDNSSeedData("nodeb.ooork.org", "nodeb.ooork.org"));
+        vSeeds.push_back(CDNSSeedData("8.3.29.162", "8.3.29.162"));
+        vSeeds.push_back(CDNSSeedData("blockreporter.info", "blockreporter.info"));
         vSeeds.push_back(CDNSSeedData("nodec.ooork.org", "nodec.ooork.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = {25};
